@@ -1,0 +1,6 @@
+Link text rule
+1. Avoid printing full url to web page
+2. Avoid "links to" phrase
+3. Keep link text short. Exact topic not sentence
+4. Avoid "clikc here"
+5. No email on webpage to avoid spider
