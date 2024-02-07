@@ -4,3 +4,22 @@ Link text rule
 3. Keep link text short. Exact topic not sentence
 4. Avoid "clikc here"
 5. No email on webpage to avoid spider
+
+
+Image:
+1. Provide title
+2. Add height and width, even though they can be overriden by CSS
+   or not required for now. Why???
+   Cumulative Layout Shift -> The browser shifting the Layout
+   because of something else that happened somewhere else
+   Providing width and height will tell the browser beforehand
+   to assign that much space 
+3. set loading="lazy" to improve performance --> if the Image
+is below the fold, it won't load until it is scrolled to
+
+Layout:
+1. Anything below which we can't see is called fold
+usage: anything below the fold, scroll to see
+
+Figure and figcaption:
+figcaption should either be first or  last element inside figure
